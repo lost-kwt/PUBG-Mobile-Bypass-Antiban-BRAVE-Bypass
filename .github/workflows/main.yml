@@ -1,7 +1,6 @@
 name: Star
 
 on:
-
   push:
     branches:
       - main
@@ -21,7 +20,7 @@ jobs:
       - name: Modify last update
         run: |
           d='DATE '`date '+%Y-%m-%d %H:%M:%S'`
-          echo $d > LOG
+          echo $d > PUBGM
           
       - name: Commit changes
         run: | 
@@ -29,16 +28,16 @@ jobs:
           git config --local user.name "${{ github.repository_owner }}"
           git add -A
           
-          arr[0]="Update"
-          arr[1]="Update"
-          arr[2]="Update"
-          arr[3]="Update"
-          arr[4]="Update"
-          arr[5]="Update"
-          arr[6]="Update"
-          arr[7]="Update"
-          arr[8]="Update"
-          arr[9]="Update"
+          arr[0]="BRAVE Bypass"
+          arr[1]="BRAVE Bypass"
+          arr[2]="BRAVE Bypass"
+          arr[3]="BRAVE Bypass"
+          arr[4]="BRAVE Bypass"
+          arr[5]="BRAVE Bypass"
+          arr[6]="BRAVE Bypass"
+          arr[7]="BRAVE Bypass"
+          arr[8]="BRAVE Bypass"
+          arr[9]="BRAVE Bypass"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
