@@ -1,4 +1,4 @@
-# Brave Bypass PUBG MOBILE - Open Source
+# Brave Bypass PUBG MOBILE
 
 Brave Bypass is a bypass tool for matchmaking with phone players in PUBG Mobile. This bypass bypasses the game's security measures, allowing players to play the game by matching with a phone.
 
